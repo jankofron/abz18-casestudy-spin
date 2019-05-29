@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>ERTMS/ETCS Case study in Spin</title>
+</head>
+<body>
+<div style="text-align: left">
+<h1>
+ERTMS/ETCS Case study in Spin &mdash; supplementary material of:
+</h1>
+<h2><a href="/~arcaini">Paolo Arcaini</a> and <a href="/~kofron">Jan Kofro&#328;</a>: Validation of the Hybrid ERTMS/ETCS Level 3 using Spin</h2>
+
+
+<div>
+This page contains the material to our case study of the 
+<a href="http://www.ertms.be/sites/default/files/2018-03/16E0421A_HL3.pdf">ERTMS/ETCS Level 3 specification</a> in Promela.
+We refer to version 1A dated 14/07/2017.
+We aimed at modelling and verification of the scenarios contained in the specification as well as at the general verification
+of safety properties of the system. The following files contain the model of the system:   
+</div>
+<div>
+
+<ul> 
+<li>The main model file: <a href="model.pml">model.pml</a></li>
+<li>Scenarios: <a href="scenarios.pml">scenarios.pml</a></li>
+<li>Implementation of DSL language: <a href="dsl.pml">dsl.pml</a></li>
+<li>A DSL example use case: <a href="usecase.pml">usecase.pml</a></li>
+<li>Assertions to check ambiguity of VSS state transitions: <a href="asserts.pml">asserts.pml</a></li>
+<li>Output of simulation of the specification scenarios: <a href="scenarios_output.zip">scenarios_output.zip</a></li>
+</ul>
+</div>
+
+<div>
+To run a DSL use case, the spin command line has to define the "dsl" symbol.
+We advise to use the "-X -B" argument as well:
+
+<pre>spin -X -B -Ddsl model.pml</pre>
+
+To run a particular scenario from the requirement specification document, the "sce" symbol has to be defined, e.g. for scenario 1:
+
+<pre>spin -X -B -Dsce=1 model.pml</pre>
+
+To run a random simulation, define neither "dsl" nor "sce":
+
+<pre>spin -X -B model.pml</pre>
+
+</div>
+<div>
+We have discovered a potential assertion violation corresponding to a situation when a train crashes into another one due to disconnection and a too-long mute timer time-out.
+The details can be found <a href="violation.html">here</a>.
+</div>
+<div>
+The list of requirements covered by the VSS state machine can be found <a href="reqs.html">here</a>.
+</div>
+</body>
+</html>

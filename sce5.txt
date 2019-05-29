@@ -1,0 +1,227 @@
+Step 0 of scenario 5
+Train A spawned
+Train A reported with integrity
+VSS0: transition #2A taken
+Train A - eoma: 9
+
+A
+O	F	F	F	F	F	F	F	F	F	
+O	O	F	F	F	F	F	F	F	F	
+0	0	1	1	1	2	2	2	3	3	
+____________________________________________________________________________
+
+Step 1 of scenario 5
+Moving both front and rear of train A forward
+Train A reported having left VSS0
+Train A reported with integrity
+VSS0: transition #6B taken
+VSS1: transition #2A taken
+Train A - eoma: 9
+
+	A
+F	O	F	F	F	F	F	F	F	F	
+O	O	F	F	F	F	F	F	F	F	
+0	0	1	1	1	2	2	2	3	3	
+____________________________________________________________________________
+
+Step 2 of scenario 5
+Train B spawned
+Train splits
+Train A reported having left VSS0
+Train A reported with NO integrity
+Train B NOT reported
+Timer integritylosspropagationtimer for VSS1 running
+VSS1: transition #8C taken
+Train A - eoma: 9
+Train B - eoma: 9
+
+	bA									
+F	A	F	F	F	F	F	F	F	F	
+O	O	F	F	F	F	F	F	F	F	
+0	0	1	1	1	2	2	2	3	3	
+____________________________________________________________________________
+
+Step 3 of scenario 5
+Moving both front and rear of train A forward
+Train A reported having left VSS1
+Train A reported with NO integrity
+Train B NOT reported
+Timer integritylosspropagationtimer for VSS1 running
+VSS1: transition #10A taken
+VSS2: transition #3A taken
+Train A - eoma: 9
+Train B - eoma: 9
+
+	b	A
+F	U	A	F	F	F	F	F	F	F	
+O	O	O	O	O	F	F	F	F	F	
+0	0	1	1	1	2	2	2	3	3	
+____________________________________________________________________________
+
+Step 4 of scenario 5
+Moving both front and rear of train A forward
+Train A reported having left VSS2
+Train A reported with integrity
+Train B NOT reported
+integritylosspropagationtimer for VSS1 expired
+VSS0: transition #1E taken
+VSS2: transition #10A taken
+VSS3: transition #3A taken
+Train A - eoma: 9
+Train B - eoma: 9
+
+	b		A
+U	U	U	A	F	F	F	F	F	F	
+O	O	O	O	O	F	F	F	F	F	
+0	0	1	1	1	2	2	2	3	3	
+____________________________________________________________________________
+
+Step 5 of scenario 5
+Moving both front and rear of train A forward
+Train A reported having left VSS3
+Train A reported with integrity
+Train B NOT reported
+VSS3: transition #10A taken
+VSS4: transition #3A taken
+Train A - eoma: 9
+Train B - eoma: 9
+
+	b			A
+U	U	U	U	A	F	F	F	F	F	
+O	O	O	O	O	F	F	F	F	F	
+0	0	1	1	1	2	2	2	3	3	
+____________________________________________________________________________
+
+Step 6 of scenario 5
+Moving front of train A forward
+Train A reported having left VSS3
+Train A reported with integrity
+Train B NOT reported
+VSS5: transition #3A taken
+Train A - eoma: 9
+Train B - eoma: 9
+
+	b			A	A
+U	U	U	U	A	A	F	F	F	F	
+O	O	O	O	O	O	O	O	F	F	
+0	0	1	1	1	2	2	2	3	3	
+____________________________________________________________________________
+
+Step 7 of scenario 5
+Moving rear of train A forward
+Train A NOT reported
+Train B NOT reported
+Timer shadowtimerB for TTD1 running
+VSS2: transition #4A taken
+VSS3: transition #4A taken
+VSS4: transition #9A taken
+Train A - eoma: 9
+Train B - eoma: 9
+
+	b				A
+U	U	F	F	F	A	F	F	F	F	
+O	O	F	F	F	O	O	O	F	F	
+0	0	1	1	1	2	2	2	3	3	
+____________________________________________________________________________
+
+Step 8 of scenario 5
+Train A reported having left VSS4
+Train A reported with integrity
+Train B NOT reported
+Timer shadowtimerB for TTD1 running
+VSS5: transition #11B taken
+Train A - eoma: 9
+Train B - eoma: 9
+
+	b				A
+U	U	F	F	F	O	F	F	F	F	
+O	O	F	F	F	O	O	O	F	F	
+0	0	1	1	1	2	2	2	3	3	
+____________________________________________________________________________
+
+Step 9 of scenario 5
+Train A reported having left VSS4
+Train A reported with integrity
+Train B NOT reported
+Train A - eoma: 9
+Train B - eoma: 9
+
+	b				A
+U	U	F	F	F	O	F	F	F	F	
+O	O	F	F	F	O	O	O	F	F	
+0	0	1	1	1	2	2	2	3	3	
+____________________________________________________________________________
+
+Step 10 of scenario 5
+Train A NOT reported
+Train B NOT reported
+Train A - eoma: 9
+Train B - eoma: 9
+
+	b				A
+U	U	F	F	F	O	F	F	F	F	
+O	O	F	F	F	O	O	O	F	F	
+0	0	1	1	1	2	2	2	3	3	
+____________________________________________________________________________
+
+Step 11 of scenario 5
+Train A NOT reported
+Train B NOT reported
+Train A - eoma: 9
+Train B - eoma: 9
+
+	b				A
+U	U	F	F	F	O	F	F	F	F	
+O	O	F	F	F	O	O	O	F	F	
+0	0	1	1	1	2	2	2	3	3	
+____________________________________________________________________________
+
+Step 12 of scenario 5
+Train A NOT reported
+Train B NOT reported
+Train A - eoma: 9
+Train B - eoma: 9
+
+	b				A
+U	U	F	F	F	O	F	F	F	F	
+O	O	F	F	F	O	O	O	F	F	
+0	0	1	1	1	2	2	2	3	3	
+____________________________________________________________________________
+
+Step 13 of scenario 5
+Train A NOT reported
+Train B NOT reported
+Train A - eoma: 9
+Train B - eoma: 9
+
+	b				A
+U	U	F	F	F	O	F	F	F	F	
+O	O	F	F	F	O	O	O	F	F	
+0	0	1	1	1	2	2	2	3	3	
+____________________________________________________________________________
+
+Step 14 of scenario 5
+Train A NOT reported
+Train B NOT reported
+Train A - eoma: 9
+Train B - eoma: 9
+
+	b				A
+U	U	F	F	F	O	F	F	F	F	
+O	O	F	F	F	O	O	O	F	F	
+0	0	1	1	1	2	2	2	3	3	
+____________________________________________________________________________
+
+Step 15 of scenario 5
+Train A NOT reported
+Train B NOT reported
+Train A - eoma: 9
+Train B - eoma: 9
+
+	b				A
+U	U	F	F	F	O	F	F	F	F	
+O	O	F	F	F	O	O	O	F	F	
+0	0	1	1	1	2	2	2	3	3	
+____________________________________________________________________________
+
+timeout

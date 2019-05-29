@@ -1,0 +1,199 @@
+Step 0 of scenario 7
+Train A spawned
+Train A reported with integrity
+VSS0: transition #2A taken
+Train A - eoma: 6
+
+A
+O	F	F	F	F	F	F	F	F	F	
+O	O	F	F	F	F	F	F	F	F	
+0	0	1	1	1	2	2	2	3	3	
+____________________________________________________________________________
+
+Step 1 of scenario 7
+Moving both front and rear of train A forward
+Train A reported having left VSS0
+Train A reported with integrity
+VSS0: transition #6B taken
+VSS1: transition #2A taken
+Train A - eoma: 6
+
+	A
+F	O	F	F	F	F	F	F	F	F	
+O	O	F	F	F	F	F	F	F	F	
+0	0	1	1	1	2	2	2	3	3	
+____________________________________________________________________________
+
+Step 2 of scenario 7
+Moving both front and rear of train A forward
+Train A reported having left VSS1
+Train A reported with integrity
+VSS1: transition #6A taken
+VSS2: transition #2A taken
+Train A - eoma: 6
+
+		A
+F	F	O	F	F	F	F	F	F	F	
+F	F	O	O	O	F	F	F	F	F	
+0	0	1	1	1	2	2	2	3	3	
+____________________________________________________________________________
+
+Step 3 of scenario 7
+Moving both front and rear of train A forward
+Train A reported having left VSS2
+Train A reported with integrity
+VSS2: transition #6B taken
+VSS3: transition #2A taken
+Train A - eoma: 6
+
+			A
+F	F	F	O	F	F	F	F	F	F	
+F	F	O	O	O	F	F	F	F	F	
+0	0	1	1	1	2	2	2	3	3	
+____________________________________________________________________________
+
+Step 4 of scenario 7
+Train A disconnects
+Train A NOT reported
+Timer mutetimer for train 0 running
+Train A - eoma: 6
+
+			a
+F	F	F	O	F	F	F	F	F	F	
+F	F	O	O	O	F	F	F	F	F	
+0	0	1	1	1	2	2	2	3	3	
+____________________________________________________________________________
+
+Step 5 of scenario 7
+Moving both front and rear of train A forward
+Train A NOT reported
+Timer mutetimer for train 0 expired
+VSS3: transition #7A taken
+VSS4: transition #1B taken
+Train A - eoma: 6
+
+				a
+F	F	F	U	U	F	F	F	F	F	
+F	F	O	O	O	F	F	F	F	F	
+0	0	1	1	1	2	2	2	3	3	
+____________________________________________________________________________
+
+Step 6 of scenario 7
+Moving front of train A forward
+Train A NOT reported
+Timer mutetimer for train 0 expired
+VSS5: transition #1B taken
+VSS6: transition #1B taken
+Train A - eoma: 6
+
+				a	a
+F	F	F	U	U	U	U	F	F	F	
+F	F	O	O	O	O	O	O	F	F	
+0	0	1	1	1	2	2	2	3	3	
+____________________________________________________________________________
+
+Step 7 of scenario 7
+Train A reconnects
+Train A reported having left VSS3
+Train A reported with integrity
+Timer mutetimer for train 0 running
+VSS3: transition #4C taken
+VSS4: transition #12A taken
+VSS5: transition #12A taken
+VSS6: transition #4B taken
+Train A - eoma: 6
+
+				A	A
+F	F	F	F	O	O	F	F	F	F	
+F	F	O	O	O	O	O	O	F	F	
+0	0	1	1	1	2	2	2	3	3	
+____________________________________________________________________________
+
+Step 8 of scenario 7
+Moving rear of train A forward
+Train A reported having left VSS4
+Train A reported with integrity
+VSS4: transition #6A taken
+Train A - eoma: 6
+
+					A
+F	F	F	F	F	O	F	F	F	F	
+F	F	F	F	F	O	O	O	F	F	
+0	0	1	1	1	2	2	2	3	3	
+____________________________________________________________________________
+
+Step 9 of scenario 7
+Moving both front and rear of train A forward
+Train A reported having left VSS5
+Train A reported with integrity
+VSS5: transition #6B taken
+VSS6: transition #2A taken
+Train A - eoma: 6
+
+						A
+F	F	F	F	F	F	O	F	F	F	
+F	F	F	F	F	O	O	O	F	F	
+0	0	1	1	1	2	2	2	3	3	
+____________________________________________________________________________
+
+Step 10 of scenario 7
+Train A NOT reported
+Train A - eoma: 6
+
+						A
+F	F	F	F	F	F	O	F	F	F	
+F	F	F	F	F	O	O	O	F	F	
+0	0	1	1	1	2	2	2	3	3	
+____________________________________________________________________________
+
+Step 11 of scenario 7
+Train A NOT reported
+Train A - eoma: 6
+
+						A
+F	F	F	F	F	F	O	F	F	F	
+F	F	F	F	F	O	O	O	F	F	
+0	0	1	1	1	2	2	2	3	3	
+____________________________________________________________________________
+
+Step 12 of scenario 7
+Train A NOT reported
+Train A - eoma: 6
+
+						A
+F	F	F	F	F	F	O	F	F	F	
+F	F	F	F	F	O	O	O	F	F	
+0	0	1	1	1	2	2	2	3	3	
+____________________________________________________________________________
+
+Step 13 of scenario 7
+Train A NOT reported
+Train A - eoma: 6
+
+						A
+F	F	F	F	F	F	O	F	F	F	
+F	F	F	F	F	O	O	O	F	F	
+0	0	1	1	1	2	2	2	3	3	
+____________________________________________________________________________
+
+Step 14 of scenario 7
+Train A NOT reported
+Train A - eoma: 6
+
+						A
+F	F	F	F	F	F	O	F	F	F	
+F	F	F	F	F	O	O	O	F	F	
+0	0	1	1	1	2	2	2	3	3	
+____________________________________________________________________________
+
+Step 15 of scenario 7
+Train A NOT reported
+Train A - eoma: 6
+
+						A
+F	F	F	F	F	F	O	F	F	F	
+F	F	F	F	F	O	O	O	F	F	
+0	0	1	1	1	2	2	2	3	3	
+____________________________________________________________________________
+
+timeout
