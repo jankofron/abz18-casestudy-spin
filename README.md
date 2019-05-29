@@ -23,5 +23,5 @@ To run a random simulation, define neither "dsl" nor "sce":
 
 ``spin -X -B model.pml``
 
-We have discovered a potential assertion violation corresponding to a situation when a train crashes into another one due to disconnection and a too-long mute timer time-out. The details can be found [here](violation.html).
-The list of requirements covered by the VSS state machine can be found [here](reqs.html). 
+We have discovered a potential assertion violation corresponding to a situation when a train crashes into another one due to disconnection and a too-long mute timer time-out. The details can be found [here](violation.md).
+The list of requirements covered by the VSS state machine can be found [here](reqs.md). 
